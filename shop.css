@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap'); 
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+}
+.product{
+    margin-left  :4rem;
+    margin-right :4rem;
+    margin-top:4rem;
+    text-align: left;
+}
+
+.calendar-heading{
+    margin-left  :4rem;
+    margin-right :4rem;
+    margin-top:4rem;
+    text-align: justify;
+}
+.calendar-description{
+    text-align: left;
+    margin-top:2rem;
+    margin-left: 4rem;
+}
