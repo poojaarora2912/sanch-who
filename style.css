@@ -2,6 +2,7 @@
 body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .header-image{
     text-align: center;
@@ -26,6 +27,17 @@ body{
     border-radius: 150rem;
     padding: 0.5rem;
   } 
+
+  .aboutme{
+    padding-right:4rem;
+    padding-left:4rem;
+    padding-top:2rem;
+    margin:2rem;
+    text-align: justify;
+    color:black;
+    opacity:80%;
+  }
+
   .dropdown {
     float:left;
     overflow: hidden;
