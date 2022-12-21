@@ -9,6 +9,8 @@ body{
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    height:150px;
+   
 
 }
 .nav-right ul{
@@ -142,3 +144,153 @@ body{
     
 }
 }
+@media only screen and (min-width: 400px) {
+    body{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    .header-image{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        /* height:150px;
+        width: 375px; */
+        /* overflow: hidden; */
+        /* background-color: aqua; */
+        /* background-image: url("header.jpg");
+        height:200px; */
+    
+    }
+    .imageone{
+        height:90px;
+        width: 100%;
+    }
+    .nav-right ul{
+       
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-right:1rem;
+    }
+    .nav-right a{
+        text-decoration: none;
+        /* padding:9rem; */
+        color: rgb(146, 145, 145);
+        
+        
+        
+       
+    }
+    .current{
+        color: black;
+        /* border-radius: 150rem; */
+        /* padding: 0.5rem; */
+      } 
+    
+      .aboutme{
+        padding-right:1rem;
+        padding-left:1rem;
+        padding-top:1rem;
+        margin:1rem;
+        text-align: justify;
+        color:black;
+        opacity:80%;
+      }
+    
+      .articles{
+        padding-right:4rem;
+        padding-left:4rem;
+        padding-top:1rem;
+        margin:2rem;
+        color:black;
+      }
+    
+      .times-of-india, .global-indian{
+        text-decoration: none;
+        color:black;
+      }
+    
+      .dropdown {
+        float:left;
+        overflow: hidden;
+      }
+      
+      /* .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      } */
+    
+     .dropbtn {
+        cursor: pointer;
+        /* font-size: 16px;   */
+        border: none;
+        outline: none;
+        color: rgb(146, 145, 145);
+        /* padding: 14px 16px; */
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;  
+        /* font-family: inherit; */
+        /* margin: 0; */
+      }
+      
+      
+      /* .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+        
+      } */
+      
+      .dropdown-content {
+        display: none;
+        /* position: absolute; */
+        background-color: #f9f9f9;
+        
+        /* min-width: 60px; */
+        
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1; */
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 1px;
+        text-decoration: none;
+        display: block;
+        /* text-align: left; */
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .show {
+        display: block;
+      }
+    
+    
+      .buttons{
+        color:  rgb(152, 152, 152);
+        text-decoration: none;
+        align-items: center;
+        padding:0.5rem;
+        opacity: 45%;
+    
+      }
+    
+    .footer{
+        height:40px;
+        margin-top:4rem;
+        margin-bottom:1rem;
+        text-align: center;
+        align-items: center;
+        
+        
+    }
+    }
