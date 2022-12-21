@@ -1,52 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap'); 
-@media only screen and (min-width: 768px) {
-body{
-   
-    font-family: 'Montserrat', sans-serif;
-}
-.product{
-    margin-left  :4rem;
-    margin-right :4rem;
-    margin-top:4rem;
-    text-align: left;
-}
-
-.calendar-heading{
-    margin-left  :4rem;
-    margin-right :4rem;
-    margin-top:4rem;
-    text-align: justify;
-}
-.calendar-description{
-    text-align: left;
-    margin-top:2rem;
-    margin-left: 4rem;
-}
-.place-order{
-    position: relative;
-    margin-top:2rem;
-    margin-right: 80rem;
-}
-.order-now{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(146, 145, 145);
-    color: black;
-    border-color: rgb(146, 145, 145);
-    height:2rem;
-    width:9rem;
-    font-size: 1rem;
-    border-style: none;
-}
-.order-now:hover{
-cursor:grab;
-height:3rem;
-width:10rem;
-}
-}
 
 
-@media only screen and (min-width: 350px) and (max-device-width: 768px){
+@media only screen and (min-width: 350px) and (max-device-width: 740px){
 body{
    
     font-family: 'Montserrat', sans-serif;
@@ -69,6 +24,59 @@ body{
     margin-top:2rem;
     margin-left: 0.5rem;
 }
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    /* -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0; */
+  }
+
 .place-order{
     position: relative;
     margin-top:2rem;
@@ -90,4 +98,118 @@ cursor:grab;
 height:3rem;
 width:10rem;
 }
-}
+
+@media only screen and (min-width: 740px) {
+    body{
+       
+        font-family: 'Montserrat', sans-serif;
+    }
+    .product{
+        margin-left  :4rem;
+        margin-right :4rem;
+        margin-top:4rem;
+        text-align: left;
+    }
+    
+    .calendar-heading{
+        margin-left  :4rem;
+        margin-right :4rem;
+        margin-top:4rem;
+        text-align: justify;
+    }
+    .calendar-description{
+        text-align: left;
+        margin-top:2rem;
+        margin-left: 4rem;
+    }
+    .price{
+        font-size:1.3rem;
+       color: black;
+    }
+    #price-per-piece{
+        text-align: left;
+        border: 1px none #ddd;
+        border-radius: 10px;
+        margin: 0px;
+        width: 70px;
+        height: 40px;
+        font-size:1.3rem;
+        }
+    .value-button {
+        display: inline-block;
+        border: 1px solid #ddd;
+        margin: 1px;
+        width: 40px;
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 11px 0;
+        background: #eee;
+        /* -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; */
+      }
+      
+      .value-button:hover {
+        cursor: pointer;
+      }
+      
+       #decrease {
+        margin-right: -4px;
+        border-radius: 8px 0 0 8px;
+      }
+      
+       #increase {
+        margin-left: -4px;
+        border-radius: 0 8px 8px 0;
+      }
+      
+       /* #input-wrap {
+        margin: 0px;
+        padding: 0px;
+      } */
+      
+      input#number {
+        text-align: center;
+        border: none;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+      }
+      
+      /* input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0; */
+      }
+    
+    .place-order{
+        align-items: center;
+        /* position: relative;
+        margin-top:2rem;
+        margin-right: 80rem; */
+    }
+    .order-now{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(146, 145, 145);
+        color: black;
+        border-color: rgb(146, 145, 145);
+        height:4rem;
+        width:12rem;
+        font-size: 1rem;
+        border-style: none;
+        border-radius: 5px;
+    }
+    .order-now:hover{
+    cursor:grab;
+    height:5rem;
+    width:13rem;
+    }
+    
+    
