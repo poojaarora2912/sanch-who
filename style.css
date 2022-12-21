@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap'); 
+@media only screen and (min-width: 768px) {
 body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -10,14 +11,21 @@ body{
     padding-bottom: 2rem;
 
 }
-.nav-right{
-    flex: 1 0;
-    text-align: center;
+.nav-right ul{
+    /* flex-direction: column; */
+    display: flex;
+    /* flex-wrap: wrap;
+    text-align: center; */
+    justify-content: space-between;
+    list-style: none;
+    margin-left:5rem;
+    margin-right:5rem;
 }
 .nav-right a{
     text-decoration: none;
-    padding:130px;
+    /* padding:9rem; */
     color: rgb(146, 145, 145);
+    
     
     
    
@@ -25,7 +33,7 @@ body{
 .current{
     color: black;
     border-radius: 150rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   } 
 
   .aboutme{
@@ -132,4 +140,5 @@ body{
     margin-bottom:1rem;
     
     
+}
 }
