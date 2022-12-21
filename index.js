@@ -1,8 +1,9 @@
-const dropbtn = document.querySelector(".dropbtn");
+const orderNow = document.querySelector(".order-now");
 
 function myFunction(){
     console.log("triggered");
-    document.getElementById("myDropdown").classList.toggle("show");
+    location.href = "payment.html";
+    // document.getElementById("myDropdown").classList.toggle("show");
 }
 
-dropbtn.addEventListener("click", myFunction);
+orderNow.addEventListener("click", myFunction);

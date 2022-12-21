@@ -38,6 +38,20 @@ body{
     opacity:80%;
   }
 
+  .articles{
+    padding-right:4rem;
+    padding-left:4rem;
+    padding-top:1rem;
+    margin:2rem;
+    text-align: justify;
+    color:black;
+  }
+
+  .times-of-india, .global-indian{
+    text-decoration: none;
+    color:black;
+  }
+
   .dropdown {
     float:left;
     overflow: hidden;
