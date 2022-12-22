@@ -13,6 +13,7 @@
   /* Create two equal columns that floats next to each other */
   .row{
     margin-top:2rem;
+    margin-bottom:10rem;
   }
 
   .column {
@@ -28,6 +29,14 @@
     display: table;
     clear: both;
   }
+  .contact-image{
+    height:350px;
+    width:300px;
+  }
+  .whatsapp-qr{
+    height:250px;
+    width:250px;
+  }
 }
 @media only screen and (min-width: 350px) and (max-device-width: 768px){
     body{
@@ -40,6 +49,14 @@
 
     .row{
         margin-top:3rem;
+      }
+      .contact-image{
+        height:200px;
+        width:150px;
+      }
+      .whatsapp-qr{
+        height:150px;
+        width:150px;
       }
     
 }
