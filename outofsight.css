@@ -23,7 +23,7 @@ body{
 
 div.gallery {
     border: 1px #ccc;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     margin-bottom: 1rem;
   }
   
@@ -149,7 +149,7 @@ div.gallery {
       clear: both;
     }
   
-    .void-in-time-text{
+    .out-of-sight-text{
       margin:4rem;
       text-align: center;
     }
