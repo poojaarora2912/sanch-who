@@ -168,22 +168,29 @@ body{
         height:90px;
         width: 100%;
     }
+   
     .nav-right ul{
        
         display: flex;
+       margin:-1rem;
         justify-content: space-between;
         list-style: none;
-        margin-right:1rem;
+        width: fit-content;
+        /* margin-right: -4px; */
+       
+         
     }
-    .nav-right a{
+    .nav-right li a{
         text-decoration: none;
+        margin:0 0 0 0;
         /* padding:9rem; */
         color: rgb(146, 145, 145);
-        
+        padding:0.19rem;
         
         
        
     }
+    
     .current{
         color: black;
         /* border-radius: 150rem; */
