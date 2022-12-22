@@ -120,13 +120,22 @@ width:10rem;
     .calendar-description{
         text-align: left;
         margin-top:2rem;
-        margin-left: 4rem;
+        margin-left: 2.5rem;
     }
     .price{
         font-size:1.3rem;
        color: black;
     }
+    .rs{
+        position: absolute;
+        left: 70px;
+        bottom:60px;
+        color: black;
+    }
     #price-per-piece{
+        position: absolute;
+        left: 105px;
+        bottom:50px;
         text-align: left;
         border: 1px none #ddd;
         border-radius: 10px;
@@ -144,6 +153,8 @@ width:10rem;
         text-align: center;
         vertical-align: middle;
         padding: 11px 0;
+        position: relative;
+        right: 530px;
         background: #eee;
         /* -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -180,6 +191,8 @@ width:10rem;
         margin: 0px;
         width: 40px;
         height: 40px;
+        position: relative;
+        right: 530px;
       }
       
       /* input[type=number]::-webkit-inner-spin-button,
@@ -190,6 +203,8 @@ width:10rem;
     
     .place-order{
         align-items: center;
+        position: relative;
+        right: 600px;
         /* position: relative;
         margin-top:2rem;
         margin-right: 80rem; */
