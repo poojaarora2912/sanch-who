@@ -1,6 +1,8 @@
 const orderNow = document.querySelector(".order-now");
 const priceperpiece = document.querySelector(".price-per-piece");
 
+
+
 function myFunction(){
     console.log("triggered");
     location.href = "payment.html";
@@ -65,6 +67,7 @@ function increaseValue() {
    slides[slideIndex-1].style.display = "block";  
    dots[slideIndex-1].className += " active";
  }
- 
-orderNow.addEventListener("click", myFunction);
 
+
+
+ orderNow.addEventListener("click", myFunction);
