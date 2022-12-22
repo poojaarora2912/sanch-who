@@ -16,16 +16,33 @@ body{
 .calendar-heading{
     margin-left  :2rem;
     margin-right :2rem;
-    margin-top:4rem;
+    margin-top:1.5rem;
     text-align: justify;
 }
 
-.prev, .next,.text {
+.text {
     font-size: 11px;
 }
-.calendar1, .calendar2, .calendar3, .calendar4{
-    width:80%;
+.calendar{
+    width:100%;
 }
+.prev, .next {
+    font-size: 11px;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* width: auto; */
+    padding: 16px;
+    /* margin-top: -22px;
+    margin-left: -290px;
+    margin-right:210px; */
+    color: black;
+    /* font-weight: bold;
+    font-size: 18px; */
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    /* user-select: none; */
+  }
 
 
 .calendar-description{
