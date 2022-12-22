@@ -167,7 +167,7 @@ body{
     .imageone{
         height:90px;
         width: 100%;
-        margin-bottom:1rem;
+        margin-bottom:0.5rem;
     }
    
     .nav-right ul{
@@ -201,7 +201,7 @@ body{
       .aboutme{
         padding-right:1rem;
         padding-left:1rem;
-        padding-top:3rem;
+        padding-top:2rem;
         margin:1rem;
         text-align: justify;
         color:black;
