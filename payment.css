@@ -17,13 +17,14 @@ body{
     background-color: rgb(146, 145, 145);
     color: black;
     border-color: rgb(146, 145, 145);
-    height:2rem;
+    height:3rem;
     width:9rem;
     font-size: 1rem;
     border-style: none;
+    border-radius: 5px;
 }
 .fill-details:hover{
 cursor:grab;
-height:3rem;
+height:4rem;
 width:10rem;
 }
