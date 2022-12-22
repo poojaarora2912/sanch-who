@@ -178,19 +178,32 @@ body{
         list-style: none;
         width: fit-content;
         /* margin-right: -4px; */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+ 
        
          
     }
-    .nav-right li a{
+    li a {
+        display: block;
+        color: rgb(146, 145, 145);
+        text-align: center;
+        padding: 1.5px 1.5px;
+        text-decoration: none;
+      }
+    /* .nav-right li a{
         text-decoration: none;
         margin:0 0 0 0;
-        /* padding:9rem; */
+        padding:9rem;
         color: rgb(146, 145, 145);
         padding:0.19rem;
         
         
        
-    }
+    } */
     
     .current{
         color: black;
