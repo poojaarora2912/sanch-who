@@ -172,7 +172,7 @@ body{
     .nav-right ul{
        
         display: flex;
-       margin:-1rem;
+       margin:-2.2rem;
         justify-content: space-between;
         list-style: none;
         width: fit-content;
