@@ -2,7 +2,7 @@
     body{
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        /* color: rgb(146, 145, 145); */
+        color: rgb(84, 84, 84);
         
     }
 * {
@@ -10,6 +10,10 @@
   }
   
   /* Create two equal columns that floats next to each other */
+  .row{
+    margin-top:2rem;
+  }
+
   .column {
     float: left;
     width: 50%;
@@ -28,8 +32,13 @@
     body{
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        /* color: rgb(146, 145, 145); */
+        color: rgb(84, 84, 84);
         
+    
     }
+
+    .row{
+        margin-top:3rem;
+      }
     
 }
