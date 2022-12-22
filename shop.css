@@ -24,6 +24,32 @@ body{
     margin-top:2rem;
     margin-left: 0.5rem;
 }
+ .price{
+        font-size:1.3rem;
+        color: black;
+        text-align: center;
+        /* margin-left:2rem; */
+
+    }
+    .rs{
+        /* position: absolute;
+        left: 70px;
+        bottom:60px; */
+        color: black;
+        font-size:1.4rem;
+    }
+     #price-per-piece{
+        /* position: absolute;
+        left: 105px;
+        bottom:50px; */
+        text-align: left;
+        border: 1px none #ddd;
+        border-radius: 10px;
+        margin: 0px;
+        width: 70px;
+        height: 40px;
+        font-size:1.4rem;
+        }
 .value-button {
     display: inline-block;
     border: 1px solid #ddd;
@@ -75,10 +101,11 @@ body{
   input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0; */
-  }
+  
 
 .place-order{
-    position: relative;
+    /* position: relative; */
+    text-align: center;
     margin-top:2rem;
    
 }
@@ -88,17 +115,18 @@ body{
     background-color: rgb(146, 145, 145);
     color: black;
     border-color: rgb(146, 145, 145);
-    height:2rem;
-    width:9rem;
+    height:4rem;
+    width:12rem;
     font-size: 1rem;
     border-style: none;
+    border-radius: 5px;
 }
 .order-now:hover{
 cursor:grab;
 height:3rem;
 width:10rem;
 }
-
+}
 @media only screen and (min-width: 740px) {
     body{
        
@@ -201,7 +229,7 @@ width:10rem;
       input[type=number]::-webkit-outer-spin-button {
           -webkit-appearance: none;
           margin: 0; */
-      }
+      
     
     .place-order{
         text-align:left ;
@@ -231,4 +259,4 @@ width:10rem;
     width:13rem;
     }
     
-    
+}
