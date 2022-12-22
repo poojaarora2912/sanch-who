@@ -1,9 +1,9 @@
 @media only screen and (min-width: 768px) {
     body{
-        text-align: center;
+        /* text-align: center; */
         font-family: 'Montserrat', sans-serif;
         color: rgb(84, 84, 84);
-        font-size: 0.75rem;
+        /* font-size: 0.75rem; */
         
     }
 * {
@@ -40,15 +40,17 @@
 }
 @media only screen and (min-width: 350px) and (max-device-width: 768px){
     body{
-        text-align: center;
+        
         font-family: 'Montserrat', sans-serif;
         color: rgb(84, 84, 84);
-        font-size: 0.75rem;
+       
     
     }
 
     .row{
         margin-top:3rem;
+        text-align: center;
+        font-size: 0.75rem;
       }
       .contact-image{
         height:200px;
