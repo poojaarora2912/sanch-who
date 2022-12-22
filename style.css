@@ -167,12 +167,13 @@ body{
     .imageone{
         height:90px;
         width: 100%;
+        margin-bottom:1rem;
     }
    
     .nav-right ul{
        
         display: flex;
-       margin:-2.2rem;
+       /* margin:-2.2rem; */
         justify-content: space-between;
         list-style: none;
         width: fit-content;
@@ -200,7 +201,7 @@ body{
       .aboutme{
         padding-right:1rem;
         padding-left:1rem;
-        padding-top:1rem;
+        padding-top:3rem;
         margin:1rem;
         text-align: justify;
         color:black;
