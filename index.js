@@ -48,9 +48,9 @@ function increaseValue() {
    showSlides(slideIndex += n);
  }
  
- function currentSlide(n) {
-   showSlides(slideIndex = n);
- }
+//  function currentSlide(n) {
+//    showSlides(slideIndex = n);
+//  }
  
  function showSlides(n) {
    let i;
