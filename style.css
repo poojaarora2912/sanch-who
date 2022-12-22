@@ -165,9 +165,10 @@ body{
     
     }
     .imageone{
-        height:90px;
+        height:100%;
         width: 100%;
         margin-bottom:0.5rem;
+
     }
    
     .nav-right ul{
@@ -191,8 +192,9 @@ body{
         display: block;
         color: rgb(146, 145, 145);
         text-align: center;
-        padding: 1.5px 1.5px;
+        padding: 8px 8px;
         text-decoration: none;
+        font-size: 0.8rem;
       }
     /* .nav-right li a{
         text-decoration: none;
@@ -214,11 +216,12 @@ body{
       .aboutme{
         padding-right:1rem;
         padding-left:1rem;
-        padding-top:2rem;
+        padding-top:1rem;
         margin:1rem;
         text-align: justify;
         color:black;
         opacity:80%;
+        font-size: 0.8rem;
       }
     
       .articles{
@@ -227,6 +230,7 @@ body{
         padding-top:1rem;
         margin:2rem;
         color:black;
+        font-size: 0.8rem;
       }
     
       .times-of-india, .global-indian{
